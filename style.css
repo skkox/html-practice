@@ -21,10 +21,12 @@ body {
 }
 
 .avatar {
-  width: 260px;
-  height: 160px;
+  width: 100%;
+  max-width: 420px;
+  height: 220px;
   object-fit: cover;
-  border-radius: 16px;
+  object-position: top;
+  border-radius: 18px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.10);
   margin-bottom: 18px;
   border: 4px solid #f3f6fa;
